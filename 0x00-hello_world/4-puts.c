@@ -1,17 +1,13 @@
 #include<stdio.h>
 
 /**
+ * main - This is where the printing begins
  *
- *  * main - Entry point where actual printing starts
- *
- *   *
- *
- *    * Return: Always 0 if Successful
- *
- *     */
+ ** Return: Always  0 if successful
+ */
 
-int main (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	return (0);
 }
