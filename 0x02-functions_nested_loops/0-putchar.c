@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - print _putchar
@@ -12,7 +12,6 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 9; i++)
-		putchar(chars[i]);
-	putchar('\n');
+		_putchar(chars[i]);
 	return (0);
 }
