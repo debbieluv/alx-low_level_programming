@@ -13,5 +13,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 		_putchar(chars[i]);
+	putchar(10);
+
 	return (0);
 }
