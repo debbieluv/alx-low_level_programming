@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * *times_table - prints the 9 times table
- * *
- * *Return: returns nothing
- * */
+ *times_table - prints the 9 times table
+ *
+ *Return: returns nothing
+ */
 void times_table(void)
 {
-	int digit; 
-	int fctr; 
+	int digit;
+	int fctr;
 	int num;
+
 	for (digit = 0; digit <= 9; digit++)
 	{
 		_putchar('0');
@@ -26,5 +27,5 @@ void times_table(void)
 			_putchar((num % 10) + '0');
 		}
 		_putchar('\n');
-i	}
+	}
 }
