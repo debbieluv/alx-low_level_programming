@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - seec
+ * _isalpha - seec
  *@c: character
  * Return: 0
  */
