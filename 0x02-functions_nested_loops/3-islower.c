@@ -2,7 +2,7 @@
 
 /**
  * _islower - seec
- *
+ *@c: character
  * Return: 0
  */
 
