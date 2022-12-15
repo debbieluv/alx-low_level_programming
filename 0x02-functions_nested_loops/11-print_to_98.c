@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *print_to_98 
- *@n:starty
- *return: blankg
+ *print_to_98
+ *@n:start
+ *return: blank
  */
 void print_to_98(int n)
 {
