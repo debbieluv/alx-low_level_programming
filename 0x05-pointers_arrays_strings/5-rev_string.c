@@ -6,14 +6,14 @@
 */
 void rev_string(char *s)
 {
-int i = 0
+int i = 0;
 int length;
 
 length = _strlen(s) - 1;
 
 while (length > i)
 {
-_swap(s + length, s + i);
+i_swap(s + length, s + i);
 i++;
 length--;
 }
@@ -37,13 +37,13 @@ return (len);
 }
 
 /**
-*_swap - swap two characters
+*i_swap - swap two characters
 *@a: first character
 *@b: second character
 *Return: 0
 */
 
-void _swap(char *a, char *b)
+void i_swap(char *a, char *b)
 {
 char temp = *a;
 *a = *b;
