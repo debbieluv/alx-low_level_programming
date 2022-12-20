@@ -13,7 +13,7 @@ length = _strlen(s) - 1;
 
 while (length > i)
 {
-i_swap(s + length, s + i);
+swapchar(s + length, s + i);
 i++;
 length--;
 }
@@ -37,13 +37,13 @@ return (len);
 }
 
 /**
-*i_swap - swap two characters
+*swapchar - swap two characters
 *@a: first character
 *@b: second character
 *Return: 0
 */
 
-void i_swap(char *a, char *b)
+void swapchar(char *a, char *b)
 {
 char temp = *a;
 *a = *b;
